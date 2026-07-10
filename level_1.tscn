@@ -22,3 +22,5 @@ position = Vector2(591, 329)
 [node name="Maze" parent="." unique_id=597769818 instance=ExtResource("4_ihfcg")]
 z_index = 1
 position = Vector2(557, 329)
+
+[connection signal="body_exited" from="Maze" to="." method="_on_maze_body_exited"]
