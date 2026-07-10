@@ -28,19 +28,21 @@ stretch_mode = 1
 
 [node name="StartLabel" type="Label" parent="Graphics" unique_id=2099278664]
 z_index = 1
-offset_left = 585.0
-offset_top = 219.0
-offset_right = 680.0
-offset_bottom = 264.0
+offset_left = 647.00006
+offset_top = 213.99997
+offset_right = 742.00006
+offset_bottom = 258.99997
+rotation = -0.38147193
 text = "START"
 label_settings = SubResource("LabelSettings_4euj4")
 
 [node name="EndLabel" type="Label" parent="Graphics" unique_id=146451246]
 z_index = 1
-offset_left = 619.0
-offset_top = -119.0
-offset_right = 714.0
-offset_bottom = -74.0
+offset_left = 650.0
+offset_top = -62.0
+offset_right = 745.0
+offset_bottom = -17.0
+rotation = 0.5380608
 text = "END"
 label_settings = SubResource("LabelSettings_4euj4")
 
@@ -50,6 +52,6 @@ position = Vector2(591, 329)
 
 [node name="Maze" parent="." unique_id=597769818 instance=ExtResource("4_ihfcg")]
 z_index = 1
-position = Vector2(557, 329)
+position = Vector2(611, 394)
 
 [connection signal="body_exited" from="Maze" to="." method="_on_maze_body_exited"]
