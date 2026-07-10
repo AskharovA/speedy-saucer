@@ -12,7 +12,7 @@ func _process(delta: float) -> void:
 	
 
 func _physics_process(delta: float) -> void:
-	var force = 1000
+	var force = 1500
 	if Input.is_action_pressed("move_right"):
 		apply_force(Vector2(force, 0))
 	if Input.is_action_pressed("move_left"):
